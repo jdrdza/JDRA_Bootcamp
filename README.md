@@ -33,7 +33,7 @@ https://www.MongoDB.com/try/download/community
 ```
 </li>
         <li>Run the msi packages and follow the instalation instructions</li>
-        <li>Now it's necessary to go the following path to run the MongoDB service: 
+        <li>Now it is necessary to go the following path to run the MongoDB service: 
 
 ```
 C:\Program Files\MongoDB\Server\5.0\bin
@@ -43,7 +43,7 @@ and run
 ```
 mongod.exe
 ```
-it will open a new terminal and this terminal shouldn't be closed
+it will open a new terminal and this terminal should not be closed
 </ol>
     <h3>2.2- Instructions for Linux OS</h3>
     <ol> 
@@ -71,7 +71,7 @@ sudo systemctl status mongod
 npm start index.js
 ```
 </li>
-  <li>If everything is correct, the server will initialise like the image bellow. This terminal shouldn't be closed</li>
+  <li>If everything is correct, the server will initialise like the image bellow. This terminal should not be closed</li>
 </ol>
 
 ![Screenshot_1](https://user-images.githubusercontent.com/100879092/163055811-e964890b-99ee-4b26-b807-fa3ba22f297e.png)
@@ -87,7 +87,7 @@ This will return the message "Helllo World" as a JSON.</li>
     
 ![Screenshot_2](https://user-images.githubusercontent.com/100879092/163056264-11df3ec7-ed6d-4db7-af1e-1bd20fdf4aac.png)
   
-<li>To get the second endpoint it's the same as the last step but with the following route:
+<li>To get the second endpoint it is the same as the last step but with the following route:
 
 ```
 localhost:3001/getHello/Daniel
@@ -100,7 +100,7 @@ This will return Hello World Daniel as a JSON</li>
 <br>
 <h2>5.- Instructions for running the endpoints get states and get zip code</h2>
 <ol>
-    <p>Before using the endpoints, it's necessary to load the following data:
+    <p>Before using the endpoints, it is necessary to load the following data:
 
 ```
 Ciudad de Mexico.js
@@ -139,7 +139,7 @@ load("Ciudad de Mexico.js")
 load("Hidalgo.js")
 load("Estado de Mexico.js")
 ```
-If everything is correct, on each command the terminal will display a true message. If it's false, then wait a minute and try again to run the command.
+If everything is correct, on each command the terminal will display a true message. If it is false, then wait a minute and try again to run the command.
         </li>
     </ol>
     <h3>5.2.- Instructions for loading data into the Linux OS</h3>
@@ -157,7 +157,7 @@ load("Ciudad de Mexico.js")
 load("Hidalgo.js")
 load("Estado de Mexico.js")
 ```
-If everything is correct, on each command the terminal will display a true message. If it's false, then wait a minute and try again to run the command.</li>
+If everything is correct, on each command the terminal will display a true message. If it is false, then wait a minute and try again to run the command.</li>
     </ol>
     <h3>5.3.- Instructions for running the endpoint to get the states of Mexico</h3>
     <ol>
