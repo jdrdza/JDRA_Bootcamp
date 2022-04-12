@@ -30,13 +30,16 @@ describe('REST API test' , ()=>{
     it("/getStates -> Gets the name of states of Mexico as a json. There are only three states (Ciudad de México, México, Hidalgo). "+
     "This will only work when the data is loaded", (done) =>{
         chai.request(url).get("/getStates").end(function(err, res){
-            
-            if(expect(res).to.be.json.length > 1)
+            expect(res).to.be.json
+
+            if(expect(res.body.response).to.not.be.an('string'))
             {
                 expect(res).to.be.json
             }
             else
                 expect(res).to.be.html
+            
+                
           done();  
           console.log(res.body);
         })
@@ -44,7 +47,7 @@ describe('REST API test' , ()=>{
 
     it("/getCP/55600 -> Gets the information about the zip code 55600 as a json. This will only work when the data is loaded", (done) =>{
         chai.request(url).get("/getCP/55600").end(function(err, res){
-            if(expect(res).to.be.json.length > 1)
+            if(expect(res.body.response).to.not.be.an('string'))
             {
                 expect(res).to.be.json
             }
