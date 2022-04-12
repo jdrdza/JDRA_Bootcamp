@@ -1,0 +1,24 @@
+{
+  "name": "jdra_bootcamp",
+  "version": "1.0.0",
+  "description": "Bootcamp API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha --require coffeescript/register"
+  },
+  "author": "Juan Daniel Rodriguez Aguilar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.3",
+    "mocha": "^9.2.2",
+    "mongoose": "^6.2.10",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.6.1"
+  }
+}
